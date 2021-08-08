@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EMILib/1.0.0": {
+        "dependencies": {
+          "IOLib": "1.0.0"
+        },
+        "runtime": {
+          "EMILib.dll": {}
+        }
+      },
+      "IOLib/1.0.0": {
+        "runtime": {
+          "IOLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EMILib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

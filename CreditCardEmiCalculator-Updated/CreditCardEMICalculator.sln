@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreditCardEMICalculatorLib", "CreditCardEMICalculatorLib", "{666FF353-FD92-4692-9E0B-732F85D96A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreditCardEMICalculatorLib.Tests", "CreditCardEMICalculatorLib.Tests", "{8890D6EE-08A2-4CFD-BE55-C63EA23542AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOLib", "CreditCardEMICalculatorLib\IOLib\IOLib.csproj", "{1CC147E0-EAB9-4B1D-931E-A36791A72272}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMILib", "CreditCardEMICalculatorLib\EMICalculationsLib\EMILib.csproj", "{1708DCFC-078E-4EA9-AB57-6195CD131436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditValidationLib", "CreditCardEMICalculatorLib\CreditValidationLib\CreditValidationLib.csproj", "{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOLib.Tests", "CreditCardEMICalculatorLib.Tests\IOLib.Tests\IOLib.Tests.csproj", "{08D2152F-41B2-4451-87B0-1F48D4C94FC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditValidationLib.Tests", "CreditCardEMICalculatorLib.Tests\CreditValidationLib.Tests\CreditValidationLib.Tests.csproj", "{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardEMICalculatorApp", "CreditCardEMICalculatorApp\CreditCardEMICalculatorApp.csproj", "{CFDC1FAE-3238-4FEF-926B-2CB5FBF027CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardModelLib", "CreditCardEMICalculatorLib\CreditCardModelLib\CreditCardModelLib.csproj", "{5767150A-69A7-4F43-8F45-8EB64B401436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardModelLib.Tests", "CreditCardEMICalculatorLib.Tests\CreditCardModelLib.Tests\CreditCardModelLib.Tests.csproj", "{4183133A-F6FD-4CB0-B456-8E9870E2C75C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMILib.Tests", "CreditCardEMICalculatorLib.Tests\EMICalculationsLib.Tests\EMILib.Tests.csproj", "{08B5AAE3-B770-47C4-B985-5F21528B2F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardModelExtensionsLib", "CreditCardModelExtensionsLib\CreditCardModelExtensionsLib.csproj", "{1A6CED33-0FD5-4924-96FF-938249BA0B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CC147E0-EAB9-4B1D-931E-A36791A72272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC147E0-EAB9-4B1D-931E-A36791A72272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC147E0-EAB9-4B1D-931E-A36791A72272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC147E0-EAB9-4B1D-931E-A36791A72272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1708DCFC-078E-4EA9-AB57-6195CD131436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1708DCFC-078E-4EA9-AB57-6195CD131436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1708DCFC-078E-4EA9-AB57-6195CD131436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1708DCFC-078E-4EA9-AB57-6195CD131436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D2152F-41B2-4451-87B0-1F48D4C94FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D2152F-41B2-4451-87B0-1F48D4C94FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D2152F-41B2-4451-87B0-1F48D4C94FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D2152F-41B2-4451-87B0-1F48D4C94FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDC1FAE-3238-4FEF-926B-2CB5FBF027CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDC1FAE-3238-4FEF-926B-2CB5FBF027CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDC1FAE-3238-4FEF-926B-2CB5FBF027CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDC1FAE-3238-4FEF-926B-2CB5FBF027CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5767150A-69A7-4F43-8F45-8EB64B401436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5767150A-69A7-4F43-8F45-8EB64B401436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5767150A-69A7-4F43-8F45-8EB64B401436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5767150A-69A7-4F43-8F45-8EB64B401436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4183133A-F6FD-4CB0-B456-8E9870E2C75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4183133A-F6FD-4CB0-B456-8E9870E2C75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4183133A-F6FD-4CB0-B456-8E9870E2C75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4183133A-F6FD-4CB0-B456-8E9870E2C75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B5AAE3-B770-47C4-B985-5F21528B2F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B5AAE3-B770-47C4-B985-5F21528B2F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B5AAE3-B770-47C4-B985-5F21528B2F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B5AAE3-B770-47C4-B985-5F21528B2F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6CED33-0FD5-4924-96FF-938249BA0B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6CED33-0FD5-4924-96FF-938249BA0B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6CED33-0FD5-4924-96FF-938249BA0B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6CED33-0FD5-4924-96FF-938249BA0B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CC147E0-EAB9-4B1D-931E-A36791A72272} = {666FF353-FD92-4692-9E0B-732F85D96A5A}
+		{1708DCFC-078E-4EA9-AB57-6195CD131436} = {666FF353-FD92-4692-9E0B-732F85D96A5A}
+		{4B6AAA88-4A29-43A0-AD12-E266DDCC56D8} = {666FF353-FD92-4692-9E0B-732F85D96A5A}
+		{08D2152F-41B2-4451-87B0-1F48D4C94FC2} = {8890D6EE-08A2-4CFD-BE55-C63EA23542AF}
+		{C18EE44D-BAFA-4585-8FA2-B1975A56EBD8} = {8890D6EE-08A2-4CFD-BE55-C63EA23542AF}
+		{5767150A-69A7-4F43-8F45-8EB64B401436} = {666FF353-FD92-4692-9E0B-732F85D96A5A}
+		{4183133A-F6FD-4CB0-B456-8E9870E2C75C} = {8890D6EE-08A2-4CFD-BE55-C63EA23542AF}
+		{08B5AAE3-B770-47C4-B985-5F21528B2F58} = {8890D6EE-08A2-4CFD-BE55-C63EA23542AF}
+		{1A6CED33-0FD5-4924-96FF-938249BA0B1D} = {666FF353-FD92-4692-9E0B-732F85D96A5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B240EED4-22F7-4708-9285-094C884C35B2}
+	EndGlobalSection
+EndGlobal

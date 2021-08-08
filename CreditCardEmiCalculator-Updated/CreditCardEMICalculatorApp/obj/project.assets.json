@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CreditCardModelExtensionsLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CreditCardModelLib": "1.0.0",
+          "CreditValidationLib": "1.0.0",
+          "EMILib": "1.0.0",
+          "IOLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CreditCardModelExtensionsLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreditCardModelExtensionsLib.dll": {}
+        }
+      },
+      "CreditCardModelLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EMILib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CreditCardModelLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreditCardModelLib.dll": {}
+        }
+      },
+      "CreditValidationLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CreditValidationLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreditValidationLib.dll": {}
+        }
+      },
+      "EMILib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "IOLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EMILib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMILib.dll": {}
+        }
+      },
+      "IOLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/IOLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IOLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreditCardModelExtensionsLib/1.0.0": {
+      "type": "project",
+      "path": "../CreditCardModelExtensionsLib/CreditCardModelExtensionsLib.csproj",
+      "msbuildProject": "../CreditCardModelExtensionsLib/CreditCardModelExtensionsLib.csproj"
+    },
+    "CreditCardModelLib/1.0.0": {
+      "type": "project",
+      "path": "../CreditCardEMICalculatorLib/CreditCardModelLib/CreditCardModelLib.csproj",
+      "msbuildProject": "../CreditCardEMICalculatorLib/CreditCardModelLib/CreditCardModelLib.csproj"
+    },
+    "CreditValidationLib/1.0.0": {
+      "type": "project",
+      "path": "../CreditCardEMICalculatorLib/CreditValidationLib/CreditValidationLib.csproj",
+      "msbuildProject": "../CreditCardEMICalculatorLib/CreditValidationLib/CreditValidationLib.csproj"
+    },
+    "EMILib/1.0.0": {
+      "type": "project",
+      "path": "../CreditCardEMICalculatorLib/EMICalculationsLib/EMILib.csproj",
+      "msbuildProject": "../CreditCardEMICalculatorLib/EMICalculationsLib/EMILib.csproj"
+    },
+    "IOLib/1.0.0": {
+      "type": "project",
+      "path": "../CreditCardEMICalculatorLib/IOLib/IOLib.csproj",
+      "msbuildProject": "../CreditCardEMICalculatorLib/IOLib/IOLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CreditCardModelExtensionsLib >= 1.0.0",
+      "CreditCardModelLib >= 1.0.0",
+      "CreditValidationLib >= 1.0.0",
+      "EMILib >= 1.0.0",
+      "IOLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ajayd\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorApp\\CreditCardEMICalculatorApp.csproj",
+      "projectName": "CreditCardEMICalculatorApp",
+      "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorApp\\CreditCardEMICalculatorApp.csproj",
+      "packagesPath": "C:\\Users\\ajayd\\.nuget\\packages\\",
+      "outputPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ajayd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\CreditCardModelLib\\CreditCardModelLib.csproj": {
+              "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\CreditCardModelLib\\CreditCardModelLib.csproj"
+            },
+            "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\CreditValidationLib\\CreditValidationLib.csproj": {
+              "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\CreditValidationLib\\CreditValidationLib.csproj"
+            },
+            "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\EMICalculationsLib\\EMILib.csproj": {
+              "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\EMICalculationsLib\\EMILib.csproj"
+            },
+            "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\IOLib\\IOLib.csproj": {
+              "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardEMICalculatorLib\\IOLib\\IOLib.csproj"
+            },
+            "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardModelExtensionsLib\\CreditCardModelExtensionsLib.csproj": {
+              "projectPath": "G:\\assig\\Ajaydeep\\Week2\\Day3-EmiCalculatorRefrected\\CreditCardEmiCalculator-Updated\\CreditCardModelExtensionsLib\\CreditCardModelExtensionsLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

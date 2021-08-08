@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CreditCardModelExtensionsLib/1.0.0": {
+        "dependencies": {
+          "CreditCardModelLib": "1.0.0",
+          "CreditValidationLib": "1.0.0",
+          "EMILib": "1.0.0",
+          "IOLib": "1.0.0"
+        },
+        "runtime": {
+          "CreditCardModelExtensionsLib.dll": {}
+        }
+      },
+      "CreditCardModelLib/1.0.0": {
+        "dependencies": {
+          "EMILib": "1.0.0"
+        },
+        "runtime": {
+          "CreditCardModelLib.dll": {}
+        }
+      },
+      "CreditValidationLib/1.0.0": {
+        "runtime": {
+          "CreditValidationLib.dll": {}
+        }
+      },
+      "EMILib/1.0.0": {
+        "dependencies": {
+          "IOLib": "1.0.0"
+        },
+        "runtime": {
+          "EMILib.dll": {}
+        }
+      },
+      "IOLib/1.0.0": {
+        "runtime": {
+          "IOLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreditCardModelExtensionsLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditCardModelLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditValidationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EMILib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

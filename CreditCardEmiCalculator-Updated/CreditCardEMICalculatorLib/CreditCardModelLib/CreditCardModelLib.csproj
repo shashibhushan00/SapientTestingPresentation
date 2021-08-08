@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMICalculationsLib\EMILib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CreditValidationLib">
+      <HintPath>..\CreditValidationLib\obj\Debug\netcoreapp3.1\CreditValidationLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EMICalculationsLib">
+      <HintPath>..\EMICalculationsLib\obj\Debug\netcoreapp3.1\EMICalculationsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IOLib">
+      <HintPath>..\IOLib\obj\Debug\netcoreapp3.1\IOLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
