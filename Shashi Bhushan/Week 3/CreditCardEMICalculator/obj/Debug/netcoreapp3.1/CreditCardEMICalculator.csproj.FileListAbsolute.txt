@@ -1,0 +1,26 @@
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.exe
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.deps.json
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.runtimeconfig.json
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.runtimeconfig.dev.json
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.dll
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.pdb
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.csproj.AssemblyReference.cache
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.AssemblyInfoInputs.cache
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.AssemblyInfo.cs
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.csproj.CoreCompileInputs.cache
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.dll
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.pdb
+E:\Sapient\Code\CreditCardEMICalculator\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.genruntimeconfig.cache
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.exe
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.deps.json
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.runtimeconfig.json
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.runtimeconfig.dev.json
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.dll
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\bin\Debug\netcoreapp3.1\CreditCardEMICalculator.pdb
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.csproj.AssemblyReference.cache
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.AssemblyInfoInputs.cache
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.AssemblyInfo.cs
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.csproj.CoreCompileInputs.cache
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.dll
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.pdb
+E:\Sapient\New folder\CreditCardEMICalculator With TestCases\CreditCardEMICalculator\obj\Debug\netcoreapp3.1\CreditCardEMICalculator.genruntimeconfig.cache

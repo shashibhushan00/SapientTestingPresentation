@@ -1,0 +1,50 @@
+using System;
+
+namespace MultipleInheritance
+{
+
+	public interface IPrinter {
+		void Print(); 
+	}
+	public class Printer : IPrinter {
+		public void Print(){ Console.WriteLine("Printing Document");}
+	}
+	
+	public interface IScanner {
+		void Scan();
+	}
+	public class Scanner : IScanner {
+		public void Scan(){ Console.WriteLine("Scanning Document");}
+	}
+	
+	class PrintScanner : IPrinter, IScanner {
+		
+		Scanner scan = new Scanner();
+                Printer print = new Printer();
+		
+		public void Print(){print.Print();}
+		public void Scan(){scan.Scan();}
+	}
+
+	class DeviceManager {
+		private IPrinter print;
+		private IScanner scan;
+		
+		public void SetPrinter(IPrinter printerRef){ print = printerRef;print.Print();}
+		public void SetScanner(IScanner scannerRef){ scan = scannerRef;scan.Scan();}
+		public void PrintDocument(){}
+		public void ScanDocument(){}
+	
+	}
+	class Program {
+		public static void Main()
+		{
+			DeviceManager _manager = new  DeviceManager();
+			_manager.SetPrinter(new Printer());
+			_manager.SetPrinter(new PrintScanner());
+
+			_manager.SetScanner(new Scanner());
+			_manager.SetScanner(new PrintScanner());
+		}
+	}
+}

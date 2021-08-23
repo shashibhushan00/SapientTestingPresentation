@@ -1,0 +1,13 @@
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.exe
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.deps.json
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.runtimeconfig.json
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.runtimeconfig.dev.json
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.dll
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\bin\Debug\netcoreapp3.1\EMICalculator.pdb
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.csproj.AssemblyReference.cache
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.AssemblyInfoInputs.cache
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.AssemblyInfo.cs
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.csproj.CoreCompileInputs.cache
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.dll
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.pdb
+E:\Sapient\New folder\EMICalculator WebAPI\EMICalculator\CreditCardEMICalculator\EMICalculator\obj\Debug\netcoreapp3.1\EMICalculator.genruntimeconfig.cache

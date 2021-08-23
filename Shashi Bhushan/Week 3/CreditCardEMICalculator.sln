@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardEMICalculatorWebApi", "CreditCardEMICalculator\CreditCardEMICalculatorWebApi.csproj", "{5B5810AF-7C7B-4C46-AA58-8385C48E7708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMICalculator", "EMICalculator\EMICalculator.csproj", "{FAD00B17-DCB1-404A-BDB0-CC19224E00EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B5810AF-7C7B-4C46-AA58-8385C48E7708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5810AF-7C7B-4C46-AA58-8385C48E7708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5810AF-7C7B-4C46-AA58-8385C48E7708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5810AF-7C7B-4C46-AA58-8385C48E7708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD00B17-DCB1-404A-BDB0-CC19224E00EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD00B17-DCB1-404A-BDB0-CC19224E00EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD00B17-DCB1-404A-BDB0-CC19224E00EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD00B17-DCB1-404A-BDB0-CC19224E00EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E0CBA77-09EC-4FC3-BA71-27B92C57A803}
+	EndGlobalSection
+EndGlobal
