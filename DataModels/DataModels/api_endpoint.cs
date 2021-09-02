@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
@@ -7,6 +8,7 @@ namespace DataModels
 {
     public class api_endpoint
     {
+        [Key]
         public int api_endpoint_id { get; set; }
         public string apiEndpoint { get; set; }
         public string method_type { get; set; }
