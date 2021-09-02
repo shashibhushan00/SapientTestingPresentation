@@ -4,12 +4,16 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace DataModels
+namespace DataModels.Models
 {
     public class MyContext : DbContext
     {
-        public DbSet<api_endpoint> api_endpoints { get; set; }
-        public DbSet<api_configuration> api_configurations { get; set; }
+        public DbSet<ApiEndpoint> ApiEndpoints { get; set; }
+        public DbSet<ApiConfiguration> ApiConfigurations { get; set; }
+        public DbSet<MarketQuote> MarketQuotes { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserGridView> UserGridViews { get; set; }
+        public DbSet<Symbol> Symbols { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
